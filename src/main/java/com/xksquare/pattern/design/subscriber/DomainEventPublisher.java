@@ -2,6 +2,7 @@ package com.xksquare.pattern.design.subscriber;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import com.xksquare.pattern.design.combination.DomainEvent;
 
 public class DomainEventPublisher {
