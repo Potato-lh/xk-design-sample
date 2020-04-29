@@ -1,5 +1,11 @@
- package com.xksquare.pattern.design.mediator.sample2;
+package com.xksquare.pattern.design.mediator.sample2;
 
- public class SystemDataMediator {
+public class SystemDataMediator implements DataMediator {
+
+  @Override
+  public void syn(String data) {
+    // TODO Auto-generated method stub
+
+  }
 
 }
