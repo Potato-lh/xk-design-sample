@@ -6,7 +6,7 @@ public class Client {
 
     DataMediator mediator = new DatabseMediator();
 
-    mediator.add(DatabaseType.mysql, "user ==>>>marker.li");
+    mediator.addSyn(DatabaseType.es, "user ==>>>marker.li");
 
   }
 

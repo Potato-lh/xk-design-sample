@@ -15,7 +15,7 @@ public class DatabseMediator implements DataMediator {
     // TODO Auto-generated method stub
     if (Objects.equals(DatabaseType.mysql, databaseType)) {
       es.add(data);
-      mysql.add(data);
+      redis.add(data);
     } else if (Objects.equals(DatabaseType.es, databaseType)) {
       mysql.add(data);
     } else if (Objects.equals(DatabaseType.redis, databaseType)) {
@@ -24,13 +24,13 @@ public class DatabseMediator implements DataMediator {
   }
 
 
-  public void add(DatabaseType databaseType, String data) {
+  public void addSyn(DatabaseType databaseType, String data) {
     if (Objects.equals(DatabaseType.mysql, databaseType)) {
-      mysql.add(data);
+      mysql.addSyn(data);
     } else if (Objects.equals(DatabaseType.es, databaseType)) {
-      es.add(data);
+      es.addSyn(data);
     } else if (Objects.equals(DatabaseType.redis, databaseType)) {
-      redis.add(data);
+      redis.addSyn(data);
     }
   }
 

@@ -4,5 +4,5 @@ public interface DataMediator {
 
   public void syn(DatabaseType databaseType, String data);
 
-  public void add(DatabaseType databaseType, String data);
+  public void addSyn(DatabaseType databaseType, String data);
 }
