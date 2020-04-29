@@ -1,15 +1,15 @@
-package com.xksquare.pattern.design.mediaer.sample1;
+package com.xksquare.pattern.design.mediator.sample1;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import com.xksquare.pattern.design.mediaer.sample1.RevenueType.DividedType;
-import com.xksquare.pattern.design.mediaer.sample1.RevenueType.DividedType.Recommend;
-import com.xksquare.pattern.design.mediaer.sample1.responsibility.DividedPorcessChain;
-import com.xksquare.pattern.design.mediaer.sample1.responsibility.DividedProcess;
-import com.xksquare.pattern.design.mediaer.sample1.visitor.DividedVisitor;
-import com.xksquare.pattern.design.mediaer.sample1.visitor.RecommandDividedVisitor;
+import com.xksquare.pattern.design.mediator.sample1.RevenueType.DividedType;
+import com.xksquare.pattern.design.mediator.sample1.RevenueType.DividedType.Recommend;
+import com.xksquare.pattern.design.mediator.sample1.responsibility.DividedPorcessChain;
+import com.xksquare.pattern.design.mediator.sample1.responsibility.DividedProcess;
+import com.xksquare.pattern.design.mediator.sample1.visitor.DividedVisitor;
+import com.xksquare.pattern.design.mediator.sample1.visitor.RecommandDividedVisitor;
 
 public class RecommendHanderMediator implements RecommandMediator {
 

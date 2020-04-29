@@ -1,10 +1,10 @@
-package com.xksquare.pattern.design.mediaer.sample1.strategy;
+package com.xksquare.pattern.design.mediator.sample1.strategy;
 
 import java.util.Arrays;
 
-import com.xksquare.pattern.design.mediaer.sample1.CareForDividedType;
-import com.xksquare.pattern.design.mediaer.sample1.RecommandDivided;
-import com.xksquare.pattern.design.mediaer.sample1.RevenueType.DividedType.Recommend;
+import com.xksquare.pattern.design.mediator.sample1.CareForDividedType;
+import com.xksquare.pattern.design.mediator.sample1.RecommandDivided;
+import com.xksquare.pattern.design.mediator.sample1.RevenueType.DividedType.Recommend;
 
 public class DividedAmountUsageStrategy implements CareForDividedType, AmountUsageStrategy {
 

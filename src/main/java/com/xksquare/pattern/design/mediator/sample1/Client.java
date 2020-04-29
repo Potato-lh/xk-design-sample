@@ -1,16 +1,16 @@
-package com.xksquare.pattern.design.mediaer.sample1;
+package com.xksquare.pattern.design.mediator.sample1;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-import com.xksquare.pattern.design.mediaer.sample1.RevenueType.DividedType.Recommend;
-import com.xksquare.pattern.design.mediaer.sample1.factory.RecommendDividedFactory;
-import com.xksquare.pattern.design.mediaer.sample1.responsibility.DefaultDividedProcess;
-import com.xksquare.pattern.design.mediaer.sample1.strategy.AmountUsageStrategy;
-import com.xksquare.pattern.design.mediaer.sample1.strategy.DefaultAmountUsageStrategy;
-import com.xksquare.pattern.design.mediaer.sample1.strategy.DividedAmountUsageStrategy;
+import com.xksquare.pattern.design.mediator.sample1.RevenueType.DividedType.Recommend;
+import com.xksquare.pattern.design.mediator.sample1.factory.RecommendDividedFactory;
+import com.xksquare.pattern.design.mediator.sample1.responsibility.DefaultDividedProcess;
+import com.xksquare.pattern.design.mediator.sample1.strategy.AmountUsageStrategy;
+import com.xksquare.pattern.design.mediator.sample1.strategy.DefaultAmountUsageStrategy;
+import com.xksquare.pattern.design.mediator.sample1.strategy.DividedAmountUsageStrategy;
 
 public class Client {
 

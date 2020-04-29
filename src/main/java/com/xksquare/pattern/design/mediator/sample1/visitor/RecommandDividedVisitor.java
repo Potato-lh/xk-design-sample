@@ -1,6 +1,6 @@
-package com.xksquare.pattern.design.mediaer.sample1.visitor;
+package com.xksquare.pattern.design.mediator.sample1.visitor;
 
-import com.xksquare.pattern.design.mediaer.sample1.Divided;
+import com.xksquare.pattern.design.mediator.sample1.Divided;
 
 public class RecommandDividedVisitor implements DividedVisitor {
 

@@ -1,12 +1,12 @@
-package com.xksquare.pattern.design.mediaer.sample1.factory;
+package com.xksquare.pattern.design.mediator.sample1.factory;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.xksquare.pattern.design.mediaer.sample1.Beneficiary;
-import com.xksquare.pattern.design.mediaer.sample1.RecommandDivided;
-import com.xksquare.pattern.design.mediaer.sample1.RevenueType.DividedType;
+import com.xksquare.pattern.design.mediator.sample1.Beneficiary;
+import com.xksquare.pattern.design.mediator.sample1.RecommandDivided;
+import com.xksquare.pattern.design.mediator.sample1.RevenueType.DividedType;
 
 public class RecommendDividedFactory {
 

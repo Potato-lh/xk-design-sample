@@ -1,4 +1,4 @@
-package com.xksquare.pattern.design.mediaer.sample1;
+package com.xksquare.pattern.design.mediator.sample1;
 
 import java.util.Random;
 

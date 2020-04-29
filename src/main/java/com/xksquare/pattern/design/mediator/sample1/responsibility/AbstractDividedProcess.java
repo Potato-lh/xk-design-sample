@@ -1,13 +1,13 @@
-package com.xksquare.pattern.design.mediaer.sample1.responsibility;
+package com.xksquare.pattern.design.mediator.sample1.responsibility;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import com.xksquare.pattern.design.mediaer.sample1.RecommandDivided;
-import com.xksquare.pattern.design.mediaer.sample1.strategy.AmountUsageStrategy;
-import com.xksquare.pattern.design.mediaer.sample1.strategy.DefaultAmountUsageStrategy;
+import com.xksquare.pattern.design.mediator.sample1.RecommandDivided;
+import com.xksquare.pattern.design.mediator.sample1.strategy.AmountUsageStrategy;
+import com.xksquare.pattern.design.mediator.sample1.strategy.DefaultAmountUsageStrategy;
 
 public abstract class AbstractDividedProcess implements DividedProcess {
 

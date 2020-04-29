@@ -1,6 +1,6 @@
-package com.xksquare.pattern.design.mediaer.sample1;
+package com.xksquare.pattern.design.mediator.sample1;
 
-import com.xksquare.pattern.design.mediaer.sample1.visitor.DividedVisitor;
+import com.xksquare.pattern.design.mediator.sample1.visitor.DividedVisitor;
 
 public interface Divided {
 

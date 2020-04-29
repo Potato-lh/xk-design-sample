@@ -1,8 +1,8 @@
-package com.xksquare.pattern.design.mediaer.sample1.responsibility;
+package com.xksquare.pattern.design.mediator.sample1.responsibility;
 
 import java.util.List;
 
-import com.xksquare.pattern.design.mediaer.sample1.RecommandDivided;
+import com.xksquare.pattern.design.mediator.sample1.RecommandDivided;
 
 public interface DividedProcess {
 

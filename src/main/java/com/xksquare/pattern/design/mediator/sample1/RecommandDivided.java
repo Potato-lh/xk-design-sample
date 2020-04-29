@@ -1,9 +1,9 @@
-package com.xksquare.pattern.design.mediaer.sample1;
+package com.xksquare.pattern.design.mediator.sample1;
 
 import java.math.BigDecimal;
 
-import com.xksquare.pattern.design.mediaer.sample1.RevenueType.DividedType;
-import com.xksquare.pattern.design.mediaer.sample1.visitor.DividedVisitor;
+import com.xksquare.pattern.design.mediator.sample1.RevenueType.DividedType;
+import com.xksquare.pattern.design.mediator.sample1.visitor.DividedVisitor;
 
 public class RecommandDivided extends DividedArticle {
   /**

@@ -1,10 +1,10 @@
-package com.xksquare.pattern.design.mediaer.sample1;
+package com.xksquare.pattern.design.mediator.sample1;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Optional;
 
-import com.xksquare.pattern.design.mediaer.sample1.RevenueType.DividedType;
+import com.xksquare.pattern.design.mediator.sample1.RevenueType.DividedType;
 
 /**
  * 分成条目
